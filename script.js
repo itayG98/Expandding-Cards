@@ -1,13 +1,10 @@
-let selcted = document.querySelector(".active");
+const panels = document.querySelectorAll(".panel");
+let selcted = document.querySelector(".panel.active");
 
-for (let i = 0; i < document.querySelector(".container").children.length; i++) {
-  document
-    .querySelector(".container")
-    .children[i].addEventListener("click", () => {
-      document
-        .querySelector(".container")
-        .children[i].classList.toggle("active");
-      selcted.classList.toggle("active");
-      selcted = document.querySelector(".container").children[i];
-    });
+for (let i = 0; i < panels.length; i++) {
+  panels[i].addEventListener("click", () => {
+    panels[i].classList.toggle("active");
+    selcted.classList.toggle("active");
+    selcted = panels[i];
+  });
 }

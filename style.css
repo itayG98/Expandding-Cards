@@ -31,7 +31,7 @@ body {
   cursor: pointer;
   flex: 0.5;
   margin: 0.5rem;
-  transition: flex 0.8s ease-in;
+  transition: flex 1.5s ease-in;
 }
 
 .panel h3 {
