@@ -30,7 +30,7 @@ body {
   border-radius: 0.5rem;
   cursor: pointer;
   flex: 0.5;
-  margin: 0.5rem;
+  margin: 0.2rem;
   transition: flex 1.5s ease-in;
 }
 
@@ -52,7 +52,7 @@ body {
   margin: auto, auto;
 }
 
-@media (max-width: 500px) {
+@media (max-width: 600px) {
   p.container {
     width: 100vw;
   }
