@@ -32,12 +32,14 @@ body {
   flex: 0.5;
   margin: 0.2rem;
   transition: flex 1.5s ease-in;
+  justify-content: space-evenly;
 }
 
 .panel h3 {
-  color: black;
+  color: #ffffff;
   font-family: cursive;
-  font-size: 1rem;
+  text-shadow: 1px;
+  font-size: 2rem;
   opacity: 0;
 }
 
